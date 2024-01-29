@@ -1,0 +1,16 @@
+body:has(.custom-checkbox:checked) .section-1 {
+  display: none;
+}
+
+.cards:has(.card:hover) .card:not(:hover) {
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.3);
+  scale: 0.96;
+}
+
+.card {
+  padding: 24px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+  transition: all .2s;
+}
